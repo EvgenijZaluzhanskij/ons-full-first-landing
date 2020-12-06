@@ -1,0 +1,49 @@
+.person {
+    min-height: 708px;
+    height: 100%;
+
+    background: center center no-repeat;
+}
+
+.person--first {
+    grid-area: person_first;
+    background-image: url(../images/backgrounds/person_first.svg);
+}
+
+.person__info {
+    font-family: var(--f-bold);
+    color: var(--c-white);
+
+    max-width: 550px;
+    max-height: 180px;
+
+    height: 100%;
+    width: 100%;
+}
+
+.person__info--first {
+    padding-top: 216px;
+    padding-left: 120px;
+}
+
+.person__infoTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 68px;
+    letter-spacing: 1px;
+
+    margin: 0;
+    padding: 0 0 16px 0;
+}
+
+.person__infoDescription {
+    font-family: var(--f-light);
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.6px;
+
+    margin: 0;
+    padding: 0 0 32px 0;
+}

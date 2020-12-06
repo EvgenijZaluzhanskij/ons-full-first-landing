@@ -1,0 +1,12 @@
+:root {
+    --default-header-nav-width: 520px;
+    --default-main-indent: 92px;
+
+    --f-reg: 'OSReg';
+    --f-bold: 'OSBold';
+    --f-light: 'OSLight';
+
+    --c-midnight: #011A34;
+    --c-white: #FFFFFF;
+    --c-ozon-blue: #005BFF;
+}

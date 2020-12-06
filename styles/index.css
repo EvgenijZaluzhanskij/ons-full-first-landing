@@ -1,0 +1,26 @@
+@import './normalize.css';
+@import './variables.css';
+@import './fonts.css';
+@import './header.css';
+@import './person.css';
+@import './common.css';
+
+
+.onsFullLanding {
+    display: grid;
+    grid-template-areas:
+    '. header .'
+    '. person_first .'
+    '. courses .'
+    '. person_second .'
+    '. advantages .'
+    '. request .'
+    '. footer .';
+    grid-template-columns: var(--default-main-indent) 1fr var(--default-main-indent);
+
+    max-width: 1600px;
+    min-width: 1600px;
+    width: 100%;
+
+    margin: 0 auto;
+}
