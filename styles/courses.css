@@ -1,0 +1,111 @@
+.courses {
+    grid-area: courses;
+
+    min-height: 655px;
+    padding: 80px 0;
+    box-sizing: border-box;
+
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.courses__title {
+    margin-bottom: 64px;
+
+    color: var(--c-dark-space);
+    font-size: 46px;
+    line-height: 54px;
+    font-family: var(--f-bold);
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+
+.courses__block {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+
+    width: 100%;
+}
+
+.courses__course {
+    width: 376px;
+    height: 376.8px;
+
+    border: 1px solid var(--c-mystic);
+    border-radius: 12px;
+    box-shadow: 2px 2px 20px var(--c-mystic);
+
+    margin-right: 24px;
+
+    overflow: hidden;
+}
+
+.courses__course:last-child {
+    margin-right: 0;
+}
+
+.courses__courseImage {
+    height: 172.8px;
+    width: 100%;
+    background: center cover no-repeat;
+}
+
+.courses__courseInfo {
+    background-color: var(--c-white);
+    padding: 32px 24px;
+}
+
+.courses__courseImage--ba {
+    background-image: url(../images/backgrounds/ba-bg-image.svg);
+}
+
+.courses__courseImage--py {
+    background-image: url(../images/backgrounds/py-bg-image.svg);
+}
+
+.courses__courseImage--fd {
+    background-image: url(../images/backgrounds/fd-bg-image.svg);
+}
+
+.course__courseTitle {
+    color: var(--c-dark-space);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.6px;
+    font-family: var(--f-reg);
+
+    margin: 0 0 16px;
+}
+
+.course__courseDescription {
+    color: var(--c-dark-space);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    font-family: var(--f-light);
+
+    margin-bottom: 24px;
+}
+
+.course__courseLink {
+    color: var(--c-ozon-blue);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+    font-family: var(--f-reg);
+
+    text-decoration: none;
+    cursor: pointer;
+}

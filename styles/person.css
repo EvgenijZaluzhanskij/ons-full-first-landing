@@ -10,12 +10,16 @@
     background-image: url(../images/backgrounds/person_first.svg);
 }
 
+.person--second {
+    grid-area: person_second;
+    background-image: url(../images/backgrounds/person_second.svg);
+}
+
 .person__info {
     font-family: var(--f-bold);
     color: var(--c-white);
 
     max-width: 550px;
-    max-height: 180px;
 
     height: 100%;
     width: 100%;
@@ -24,6 +28,16 @@
 .person__info--first {
     padding-top: 216px;
     padding-left: 120px;
+
+    max-height: 276px;
+}
+
+.person__info--second {
+    padding-top: 182px;
+    padding-left: 798px;
+    padding-right: 114px;
+
+    max-height: 344px;
 }
 
 .person__infoTitle {
