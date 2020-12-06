@@ -1,0 +1,24 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 64px;
+    width: 208px;
+
+    color: var(--c-white);
+    background-color: var(--c-ozon-blue);
+
+    border-radius: 8px;
+    border: none;
+
+    outline: none;
+    cursor: pointer;
+
+    font-style: normal;
+    font-family: var(--f-reg);
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+}
