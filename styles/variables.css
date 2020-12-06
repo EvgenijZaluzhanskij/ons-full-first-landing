@@ -6,8 +6,12 @@
     --f-bold: 'OSBold';
     --f-light: 'OSLight';
 
-    --c-midnight: #011A34;
+    --c-dark-space: #011A34;
     --c-white: #FFFFFF;
     --c-ozon-blue: #005BFF;
     --c-mystic: #E9EEF1;
+    --c-aqua-haze: #EFF3F6;
+    --c-cadet-blue: #BAB2C2;
+    --c-ozon-blue-10: #E0EBFF;
+    --c-ozon-blue-50: #7FADFF;
 }

@@ -6,6 +6,8 @@
 @import './common.css';
 @import './courses.css';
 @import './advantages.css';
+@import './request.css';
+@import './footer.css';
 
 
 .onsFullLanding {
@@ -16,7 +18,7 @@
     '. courses .'
     '. person_second .'
     '. advantages .'
-    '. request .'
+    'request request request'
     '. footer .';
     grid-template-columns: var(--default-main-indent) 1fr var(--default-main-indent);
 

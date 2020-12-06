@@ -38,13 +38,13 @@
     font-size: 16px;
     line-height: 20px;
 
-    color: var(--c-midnight)
+    color: var(--c-dark-space)
 }
 
 .header__tagline {
     grid-area: headerTagline;
 
-    color: var(--c-midnight);
+    color: var(--c-dark-space);
     font-family: var(--f-bold);
 
     line-height: 26px;

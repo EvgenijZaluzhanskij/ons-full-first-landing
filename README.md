@@ -15,3 +15,11 @@ Branch name: homework_7/second_hero_courses_advantages
 
 Description: second person + courses + advantages
 ```
+
+## Homework 8
+
+```
+Branch name: homework_8/request_footer
+
+Description: request form + footer
+```
