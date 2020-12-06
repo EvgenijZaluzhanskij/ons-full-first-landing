@@ -1,0 +1,43 @@
+.footer {
+    grid-area: footer;
+
+    display: flex;
+    flex-direction: row;
+
+    height: 220px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__leftImageSVG {
+    width: 181px;
+    height: 58px;
+}
+
+.footer__credidentials {
+    text-align: left;
+
+    font-family: var(--f-light);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+}
+
+.footer__socialNetworks {
+    height: 37.45px;
+}
+
+.socialNetwork__image {
+    width: 37.45px;
+    height: 37.45px;
+}
+
+.socialNetwork__link {
+    margin-right: 10.4px;
+}
+
+.socialNetwork__link:last-child {
+    margin-right: 0;
+}
