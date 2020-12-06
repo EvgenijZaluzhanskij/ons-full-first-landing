@@ -4,6 +4,8 @@
 @import './header.css';
 @import './person.css';
 @import './common.css';
+@import './courses.css';
+@import './advantages.css';
 
 
 .onsFullLanding {
@@ -19,7 +21,6 @@
     grid-template-columns: var(--default-main-indent) 1fr var(--default-main-indent);
 
     max-width: 1600px;
-    min-width: 1600px;
     width: 100%;
 
     margin: 0 auto;

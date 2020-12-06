@@ -4,11 +4,12 @@
     align-items: center;
 
     height: 64px;
-    width: 208px;
 
     color: var(--c-white);
     background-color: var(--c-ozon-blue);
 
+
+    padding: 22px 32px;
     border-radius: 8px;
     border: none;
 
