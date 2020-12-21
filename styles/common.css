@@ -24,6 +24,11 @@
     letter-spacing: 0.7px;
 }
 
+.button:hover {
+    transform: scale(1.03);
+    transition: 200ms 0 ease-in;
+}
+
 .input {
     display: flex;
 

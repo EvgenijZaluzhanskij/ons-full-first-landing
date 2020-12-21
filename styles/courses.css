@@ -49,6 +49,11 @@
     overflow: hidden;
 }
 
+.courses__course:hover {
+    transform: scale(1.03);
+    transition: 200ms 0 ease-in;
+}
+
 .courses__course:last-child {
     margin-right: 0;
 }

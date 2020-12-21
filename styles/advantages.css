@@ -46,6 +46,11 @@
     box-sizing: border-box;
 }
 
+.advantage:hover {
+    transform: scale(1.03);
+    transition: 200ms 0 ease-in;
+}
+
 .advantage:last-child {
     margin-right: 0;
 }
